@@ -110,7 +110,7 @@ while a < 10:
 
 
 """
-Hints for loops:
+Hints for loops:    
 for loops - Use when you know EXACTLY how many iterations
 while loops - use when you DON'T know how many iterations
 """
