@@ -106,7 +106,7 @@ for i in range (5):
 a = 0
 while a < 10:
     print (a)
-    a += 1  #this is the same as a = a + 1
+    a += 1#this is t  he same as a = a + 1
 
 
 """
