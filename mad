@@ -1,0 +1,39 @@
+noun = input("type in a noun")
+adjective = input ("Type in a noun")
+print (" i saw %s %s"  %  (adjective, noun))
+
+name = input("What is your name? ")
+print("Hello %s" % name)
+
+age = input("How old are you?")
+print("%s? You belong in a museum!" % age)
+
+import random
+answer = random.randint(0,10)
+playing = True
+Guesses_left = 5
+
+import random
+def f(x) :answer = random.randint(0,10)
+
+print("Guess Game")
+print()
+import random
+def f(x) :answer = random.randint(1, 10)
+def a(x) :playing = True
+def q(x) :Guesses_left = 5
+
+name = int(input("Guess a number between 1-10: "))
+while guesses_left > 0 and playing:
+    print
+    if name > answer:
+        print ("guess lower")
+        name = int(input("Guess a number between 1-10: "))
+    elif name < answer:
+        print ("guess higher")
+        name = int(input("Guess a number between 1-10: "))
+    else:
+        Guesses_left -=1
+        print ("You win!!!!")
+    print
+

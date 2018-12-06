@@ -1,21 +1,20 @@
 import random
-answer = random.randint(0,10)
-
-print("Guess Game!")
-print()
-
-playing = True
+r = random.randint(1,10)
 guesses_left = 5
-
-real_guess = int(input ("Your answer is higher then")
-hidden_guess = real_guess 5
-print (hidden_guess)
-
+playing = True
 while guesses_left > 0 and playing:
-    name = input("guess a number 1-10:")
-    if name == answer:
-        print("You Win!!! YaY!!!!")
-        playing = True
-    else:
-        guesses_left -= 1
 
+    print("Type in a number 1-10")
+
+    while guesses_left > 0 and playing:
+        guess = int(input("Guess="))
+        if guess > r:
+            print("Lower")
+            guesses_left -= 1
+        elif guess < r:
+            print ("guess higher")
+            guesses_left -= 1
+    else:
+        print ("You win!!!!")
+        playing = False
+    
