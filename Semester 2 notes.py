@@ -5,13 +5,14 @@ cars = 5
 driving = True
 
 print("I have %s cars" %cars)
-print("i have" + str(cars) + "cars.")
+print("i have " + str(cars) + " cars.")
 
 
 age = input("How old are you")
-print("%s?? Really??? % age" % age)
+print("%s?? Really???" % age)
 
 color = ["Red", "Blue", "Black", "yellow", "green"]
 color.append("cyan")
-
-print(color)
+color.pop(0)
+print(color[1])
+print(len(color))
