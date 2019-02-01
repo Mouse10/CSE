@@ -16,3 +16,4 @@ color.append("cyan")
 color.pop(0)
 print(color[1])
 print(len(color))
+
