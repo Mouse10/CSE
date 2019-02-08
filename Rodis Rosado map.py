@@ -47,7 +47,18 @@ edison_map = {
         "NAME": "Pool",
         "DESCRIPTION": "This is the pool",
         "PATHS": {
-            "EAST": "SOUTH_ADMIN"
+            "EAST": "SOUTH_ADMIN",
+            "NORTH": "CAFETERIA_FOOD",
+        }
+    },
+    "CAFETERIA_FOOD": {
+        "NAME": "Cafeteria",
+        "DESCRIPTION": "This is where you get food",
+        "PATHS": {
+            "NORTH": "R1A9",
+            "EAST": "SCIENCE_ROOM",
+            "WEST": "GYM",
+
         }
     }
 }
