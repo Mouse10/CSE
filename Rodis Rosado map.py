@@ -60,6 +60,14 @@ edison_map = {
             "WEST": "GYM",
 
         }
+    },
+    "GYM": {
+        "NAME": "Gymnasium",
+        "DESCRIPTION": "This is where u work out",
+        "PATHS" {
+            "EAST": "SCIENCE_ROOM",
+            "NORTH": "R19A",
+            "SOUTH": "SWIMMING POOL"
     }
 }
 #
