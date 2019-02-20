@@ -92,36 +92,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Object notes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <marker date="1550097494314" expanded="true" signature="45:50" ph="..." />
-                <marker date="1550097494314" expanded="true" signature="529:542" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rodis Rosado Object.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-              <folding>
-                <marker date="1550615680434" expanded="true" signature="18:23" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dictionary world map object.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="24" lean-forward="true" selection-start-line="11" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="187">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding>
                 <marker date="1550700994817" expanded="true" signature="47:52" ph="..." />
               </folding>
@@ -130,17 +105,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rodis Rosado map.py">
+        <entry file="file://$PROJECT_DIR$/Rodis Rosado Object map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rodis Rosado Object map.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -171,8 +141,8 @@
         <option value="$PROJECT_DIR$/Special_Random.py" />
         <option value="$PROJECT_DIR$/Object notes.py" />
         <option value="$PROJECT_DIR$/Rodis Rosado Object.py" />
-        <option value="$PROJECT_DIR$/Rodis Rosado Object map.py" />
         <option value="$PROJECT_DIR$/Dictionary world map object.py" />
+        <option value="$PROJECT_DIR$/Rodis Rosado Object map.py" />
       </list>
     </option>
   </component>
@@ -528,7 +498,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Object notes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state>
           <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <marker date="1550097494314" expanded="true" signature="45:50" ph="..." />
@@ -547,9 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rodis Rosado Object map.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rodis Rosado map.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -557,10 +524,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Rodis Rosado Object map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Dictionary world map object.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="11" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="187">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding>
             <marker date="1550700994817" expanded="true" signature="47:52" ph="..." />
           </folding>
