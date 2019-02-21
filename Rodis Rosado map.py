@@ -22,7 +22,6 @@ edison_map = {
         "NAME": "Main Building",
         "DESCRIPTION": "This building has 29 classrooms.",
         "PATHS": {
-            "EAST": "BUS_LANE",
             "SOUTH": "SCIENCE_ROOM",
             "NORTH": "PARKING_LOT",
         }
@@ -64,10 +63,11 @@ edison_map = {
     "GYM": {
         "NAME": "Gymnasium",
         "DESCRIPTION": "This is where u work out",
-        "PATHS" {
+        "PATHS": {
             "EAST": "SCIENCE_ROOM",
             "NORTH": "R19A",
             "SOUTH": "SWIMMING POOL"
+        }
     }
 }
 #
