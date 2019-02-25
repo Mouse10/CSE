@@ -67,16 +67,26 @@ edison_map = {
             "EAST": "SCIENCE_ROOM",
             "NORTH": "R19A",
             "SOUTH": "SWIMMING POOL"
-            # 11 rooms
         }
     },
     "NORTH_ADMIN": {
+       "NAME": "North admin",
         "DESCRIPTION": "This is where you come if you are late",
         "PATHS": {
             "WEST": "GYM",
             "EAST": "LIBRARY"
         }
     },
+    "LIBRAY": {
+        "NAME": "LIBRAY",
+        "DESCRIPTION": "This is where you get books",
+        "PATHS": {
+            "WEST": "NORTH_ADMIN",
+            "SOUTH": "CAFETERIA_FOOD",
+            "EAST": "R19A"
+            # 10 rooms
+        }
+    }
 }
 #
 directions = ["NORTH", "SOUTH", "EAST", "WEST", "UP", "DOWN"]
