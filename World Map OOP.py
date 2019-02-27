@@ -1,11 +1,12 @@
 class Room(object):
     # This is a constructor
-    def __init__(self, name, north=None, south=None, east=None, west=None):
+    def __init__(self, name, north=None, south=None, east=None, west=None, description=None):
         self.name = name
         self.north = north
         self.south = south
         self.east = east
         self.west = west
+        self.description = description
 
 class Player(object):
     def __init__(self, starting_location):
@@ -51,7 +52,7 @@ playing = True
 # Controller
 while playing:
     print(player.current_location.name)
-
+    print(player.current_location.description)
 
     command = input(">_")
     if command.lower() in ["q", "quit", "exit"]:
