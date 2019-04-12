@@ -44,14 +44,15 @@ class Item(object):
 
 
 class Plane(Item):
-    def __init__(self, name, wheels, wings, frame, engine, window,
+    def __init__(self, name, wheels, wings, frame, engine, window, landing_lights,
                  toilet, seat, luggage, scanner, fuel, fire_extinguisher, tv):
-        super(Plane, self).__init__("Plane")
+        super(Plane, self).__init__(name)
         self.wheels = wheels
         self.wings = wings
         self.frame = frame
         self.engine = engine
         self.window = window
+        self.landing_lights = landing_lights
         self.toilet = toilet
         self.seats = seat
         self.luggage = luggage
@@ -108,9 +109,9 @@ class Library(Item):
         self.chairs = chairs
 
 
-class Baseball_box(Item):
+class Baseball_cabnet(Item):
     def __init__(self, shovel, bats, gloves, helmet, cleats, baseball, bases, hats):
-        super(Baseball_box, self).__init__("Box full of Baseball equipment")
+        super(Baseball_cabnet, self).__init__("name")
         self.shovel = shovel
         self.bats = bats
         self.gloves = gloves
@@ -123,7 +124,7 @@ class Baseball_box(Item):
 
 class Golfcart(Item):
     def __init__(self, battery, wheels, seats, wind_shield, horn):
-        super(Golfcart, self).__init__("Golfcart")
+        super(Golfcart, self).__init__("name")
         self.battery = battery
         self.wheels = wheels
         self.seats = seats
@@ -139,8 +140,8 @@ class Fire_ax(Item):
 
 
 class Laptop(Item):
-    def __init__(self, screen, battery, usb, keyboard):
-        super(Laptop, self).__init__("Laptop")
+    def __int__(self, screen, battery, usb, beyboard):
+        super(Laptop, self).__int__("name")
         self.screen = screen
         self.battery = battery
         self.usb = usb
@@ -149,7 +150,7 @@ class Laptop(Item):
 
 class Projector(Item):
     def __int__(self):
-        super(Projector, self).__init__("Projector")
+        super(Projector, self).__int__("name")
         self.light_bulb = bulb
         self.buttons = button
         self.frame = frame
@@ -157,7 +158,7 @@ class Projector(Item):
 
 class Refrigerator(Item):
     def __int__(self, dispenser, compressor, refrigerant):
-        super(Refrigerator, self).__init__("Refrigerator")
+        super(Refrigerator, self).__int__("name")
         self.door = door
         self.ice_dispenser = dispenser
         self.compressor = compressor
@@ -166,15 +167,15 @@ class Refrigerator(Item):
 
 class Microwave(Item):
     def __int__(self, magnetron, electricity, capacitor):
-        super(Microwave, self).__init__("Microwave")
+        super(Microwave, self).__int__("name")
         self.magnetron = magnetron
         self.electricity = electricity
         self.capacitor = capacitor
 
 
-class Car(Item):
-    def __init__(self, turning, speed_measurement, fuel_measurement, revolutions_per_minute, battery_measurement, wheels):
-        super(Car, self).__init__("Car")
+class Car(object):
+    def __init__(self, turning, speed_measurement, fuel_measurement,
+                 revolutions_per_minute, battery_measurement, wheels):
         self.steering_wheel = turning
         self.speedometer = speed_measurement
         self.fuel_gauge = fuel_measurement
@@ -183,36 +184,28 @@ class Car(Item):
         self.wheels = wheels
 
 
-R19A = Room("Mr. Wiebe's Room", 'parking_lot', "cafaeteria_food", "w_building", "library", "None", Laptop("Laptop", "5800 mAh", "4 ports", 1))
-parking_lot = Room("The Parking lot", None, "R19A", "None", "None", "None", Plane("Plane", 16, 5, 1, 4, 250, 1, 250, 100, 3, 150000, 10, 200))
-w_building = Room("w_building", "parking_lot", "science_room", "None", "None", "None" "None", None)
-cafeteria_food = Room("cafeteria_food", "R19A", "None", "science_room", "gym", "None", Mre(1, 3, 2, 4, 3, 2, 2, 10))
-north_admin = Room("north_admin", "w_building", "None", "None", "swimming_pool", "None", Golfcart("electric_battery", 4, 5, 1, 1))
-swimming_pool = Room("swimming_pool", "cafeteria_food", "None", "south_admin", "None", "None", Iphone8("2675mAh", "64GB", 1, 1, 1, 1))
-science_room = Room("science_room", "w_building", "south_admin", "None", "cafeteria_food", "None", Refrigerator(0))
-south_admin = Room("south_admin", "science_room", "None", "None", "swimming_pool", "None", Car(180, "120mph", "55_liters", "7000_rpm", "6yrs", 4))
-gym = Room("gym", "R19sA", "swimming_pool", "science_room", "None", "None", Baseball_box(3, 11, 20, 10, 10, 30, 4, 25))
-library = Room("library", "None", "cafeteria", "R19A", "north_admin", "None", Fire_ax(1, 1))
+R19A = Room("Mr. Wiebe's Room", 'parking_lot', "cafeteria_food", "w_building", "library", "None", "Laptop")
+parking_lot = Room("The Parking lot", None, "R19A", "None", "None", "None", "Plane")
+w_building = Room("w_building", "parking_lot", "science_room", "None", "None", "None" "None", "")
+cafeteria_food = Room("cafeteria_food", "R19A", "None", "science_room", "gym", "None", "Mre")
+north_admin = Room("north_admin", "w_building", "None", "None", "swimming_pool", "None", "Golfcart")
+swimming_pool = Room("swimming_pool", "cafeteria_food", "None", "south_admin", "None", "Iphone8")
+science_room = Room("science_room", "w_building", "south_admin", "None", "cafeteria_food", "None", "Refrigerator")
+south_admin = Room("south_admin", "science_room", "None", "None", "swimming_pool", "None", "Car")
+gym = Room("gym", "R19sA", "swimming_pool", "science_room", "None", "None", "Baseball_cabnet")
+library = Room("library", "None", "cafeteria", "R19A", "north_admin", "None", "Fire_ax")
 
 player = Player(R19A)
 
 directions = ['north', 'south', 'east', 'west', 'up', 'down']
 playing = True
-short_directions = ['n', 's', 'e', 'w']
 
 # Controller
 while playing:
     print(player.current_location.name)
     print(player.current_location.description)
 
-    if player.current_location.item is not None:
-        print("There is a %s here" % player.current_location.item.name)
     command = input(">_")
-
-    if command in short_directions:
-        pos = short_directions.index(command)
-        command = directions[pos]
-
     if command.lower() in ["q", "quit", "exit"]:
         playing = False
     elif command in directions:
@@ -222,15 +215,12 @@ while playing:
         except KeyError:
             print("I can't go that way")
     elif "take" in command:
+        # Isolate item name
         item_name = command[5:]
-        found_item = None
-        if player.current_location.item.name == item_name:
-            found_item = player.current_location.item
-
-        if found_item is not None:
-            player.inventory.append(found_item)
-
-            player.current_location.item = None
-        print("You have taken this %s in this room" % item_name)
+        print(item_name)
+        # See if the item is in the room
+    if item_name
+        # Add the item to inventory
     else:
         print("Command not recognized.")
+

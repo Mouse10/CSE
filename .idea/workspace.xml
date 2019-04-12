@@ -16,12 +16,13 @@
     <SUITE FILE_PATH="coverage/CSE$Basic_Python_Notes.coverage" NAME="Basic Python Notes Coverage Results" MODIFIED="1541801974297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSE$Challange_4.coverage" NAME="Challange 4 Coverage Results" MODIFIED="1544135706779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSE$Special_Random.coverage" NAME="Special_Random Coverage Results" MODIFIED="1550097308103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CSE$new_game.coverage" NAME="new game Coverage Results" MODIFIED="1553809118909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSE$Semester_2_notes.coverage" NAME="Semester 2 notes Coverage Results" MODIFIED="1547071648081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSE$Rodis_Rosado_map.coverage" NAME="Rodis Rosado map Coverage Results" MODIFIED="1551907544136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSE$Dictionary_world_map_object.coverage" NAME="Dictionary world map object Coverage Results" MODIFIED="1550700761374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSE$orc_wiebe.coverage" NAME="orc wiebe Coverage Results" MODIFIED="1552596775831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CSE$Rodis_Rosado_Items.coverage" NAME="Rodis Rosado Items Coverage Results" MODIFIED="1553291088910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CSE$Rodis_Rosado_adventure_game.coverage" NAME="Rodis Rosado adventure game Coverage Results" MODIFIED="1553547175994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CSE$Rodis_Rosado_Items.coverage" NAME="Rodis Rosado Items Coverage Results" MODIFIED="1553633979476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CSE$Rodis_Rosado_adventure_game.coverage" NAME="Rodis Rosado adventure game Coverage Results" MODIFIED="1555104223564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSE$Rodis_Rosado_Object.coverage" NAME="Rodis Rosado Object Coverage Results" MODIFIED="1552424891088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSE$inheritance.coverage" NAME="inheritance Coverage Results" MODIFIED="1552424981258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSE$Rodis_Rosado_Dictionary_world_map.coverage" NAME="Rodis Rosado Dictionary world map Coverage Results" MODIFIED="1551907597124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -44,63 +45,72 @@
     <session id="1002402902">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.38" value="1" />
-          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.39" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.41" value="2" />
           <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.45" value="2" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.47" value="1" />
-          <entry key="project.open.time.48" value="2" />
+          <entry key="project.open.time.48" value="3" />
           <entry key="project.open.time.49" value="2" />
           <entry key="project.open.time.50" value="1" />
-          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.51" value="2" />
+          <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.55" value="2" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.57" value="2" />
-          <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.58" value="2" />
+          <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.63" value="2" />
-          <entry key="project.open.time.64" value="3" />
+          <entry key="project.open.time.64" value="4" />
           <entry key="project.open.time.65" value="1" />
-          <entry key="project.open.time.66" value="2" />
+          <entry key="project.open.time.66" value="3" />
           <entry key="project.open.time.74" value="1" />
+          <entry key="project.open.time.75" value="1" />
           <entry key="project.open.time.76" value="1" />
+          <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.80" value="1" />
           <entry key="project.open.time.81" value="2" />
+          <entry key="project.open.time.88" value="1" />
+          <entry key="project.open.time.95" value="1" />
           <entry key="project.open.time.97" value="1" />
-          <entry key="project.opened" value="47" />
+          <entry key="project.opened" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Rodis Rosado adventure game" value="391" />
+          <entry key="Rodis Rosado adventure game" value="3361" />
           <entry key="dummy" value="50" />
-          <entry key="py" value="15027" />
+          <entry key="py" value="15181" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="50" />
-          <entry key="Python" value="15418" />
+          <entry key="Python" value="18542" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Rodis Rosado adventure game" value="1" />
-          <entry key="py" value="99" />
+          <entry key="py" value="113" />
           <entry key="py___jb_tmp___" value="2" />
         </counts>
       </usages-collector>
@@ -109,7 +119,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="100" />
+          <entry key="Python" value="114" />
         </counts>
       </usages-collector>
     </session>
@@ -119,40 +129,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rodis Rosado Items.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/inheritance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="98" column="22" lean-forward="true" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <marker date="1553549778647" expanded="true" signature="1516:1521" ph="..." />
-                <marker date="1553549778647" expanded="true" signature="1919:1924" ph="..." />
-                <marker date="1553549778647" expanded="true" signature="2216:2221" ph="..." />
-                <marker date="1553549778647" expanded="true" signature="2605:2610" ph="..." />
-                <marker date="1553549778647" expanded="true" signature="2891:2896" ph="..." />
-                <marker date="1553549778647" expanded="true" signature="3061:3066" ph="..." />
-                <marker date="1553549778647" expanded="true" signature="3300:3305" ph="..." />
-                <marker date="1553549778647" expanded="true" signature="3485:3490" ph="..." />
-                <marker date="1553549778647" expanded="true" signature="3758:3763" ph="..." />
+                <marker date="1552424854943" expanded="true" signature="22:27" ph="..." />
+                <marker date="1552424854943" expanded="true" signature="649:654" ph="..." />
+                <marker date="1552424854943" expanded="true" signature="885:890" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rodis Rosado Object.py">
+        <entry file="file://$PROJECT_DIR$/Rodis Rosado adventure game">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="48" lean-forward="true" selection-end-line="6" selection-end-column="48" />
+            <state relative-caret-position="307">
+              <caret line="226" column="58" lean-forward="true" selection-start-line="226" selection-start-column="58" selection-end-line="226" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Rodis Rosado adventure game">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rodis Rosado Items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="189" column="82" lean-forward="true" selection-start-line="189" selection-start-column="82" selection-end-line="189" selection-end-column="82" />
+            <state relative-caret-position="816">
+              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new game.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3162">
+              <caret line="186" column="48" selection-start-line="186" selection-start-column="48" selection-end-line="186" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -168,7 +181,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>elif</find>
+      <find>sword</find>
       <find>player</find>
+      <find>item.name =</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -193,12 +209,13 @@
         <option value="$PROJECT_DIR$/Rodis Rosado Object map.py" />
         <option value="$PROJECT_DIR$/Rodis Rosado map.py" />
         <option value="$PROJECT_DIR$/World Map OOP.py" />
-        <option value="$PROJECT_DIR$/Rodis Rosado Dictionary world map.py" />
         <option value="$PROJECT_DIR$/inheritance.py" />
         <option value="$PROJECT_DIR$/orc wiebe.py" />
         <option value="$PROJECT_DIR$/idk.py" />
         <option value="$PROJECT_DIR$/Rodis Rosado World Map OOP.py" />
         <option value="$PROJECT_DIR$/Rodis Rosado Items.py" />
+        <option value="$PROJECT_DIR$/new game.py" />
+        <option value="$PROJECT_DIR$/Rodis Rosado Dictionary world map.py" />
         <option value="$PROJECT_DIR$/Rodis Rosado adventure game" />
       </list>
     </option>
@@ -213,6 +230,7 @@
     <option name="width" value="830" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -325,7 +343,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="new game" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -338,7 +356,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inheritance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new game.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -370,19 +388,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.inheritance" />
       <item itemvalue="Python.Rodis Rosado Items" />
       <item itemvalue="Python.orc wiebe" />
       <item itemvalue="Python.Rodis Rosado World Map OOP" />
       <item itemvalue="Python.Rodis Rosado adventure game" />
+      <item itemvalue="Python.new game" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Rodis Rosado adventure game" />
+        <item itemvalue="Python.new game" />
         <item itemvalue="Python.Rodis Rosado Items" />
         <item itemvalue="Python.Rodis Rosado World Map OOP" />
         <item itemvalue="Python.orc wiebe" />
-        <item itemvalue="Python.inheritance" />
       </list>
     </recent_temporary>
   </component>
@@ -410,54 +428,53 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4806867" weight="0.36384267" />
-      <window_info id="Favorites" order="1" sideWeight="0.5193133" visible="true" weight="0.37367624" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4806867" visible="true" weight="0.37821484" />
+      <window_info id="Favorites" order="1" sideWeight="0.5193133" weight="0.37367624" />
       <window_info id="Structure" order="2" weight="0.24962178" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23606557" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.881997" weight="0.23606557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3262295" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32569557" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32733223" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32733223" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3262295" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3262295" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.118003026" side_tool="true" weight="0.23606557" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" />
-      <window_info anchor="right" id="SciView" order="4" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.32980332" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48360655" visible="true" weight="0.3570348" />
-      <window_info id="Structure" order="1" weight="0.24962178" />
-      <window_info active="true" id="Favorites" order="2" sideWeight="0.5163934" side_tool="true" weight="0.3570348" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4806867" visible="true" weight="0.37821484" />
+      <window_info id="Favorites" order="1" sideWeight="0.5193133" weight="0.37367624" />
+      <window_info id="Structure" order="2" weight="0.24962178" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23606557" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.23606557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3262295" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32569557" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32733223" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32733223" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3262295" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3262295" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.23606557" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" />
-      <window_info anchor="right" id="SciView" order="4" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.32980332" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,16 +508,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Hangman.py" />
-    <entry file="file://$PROJECT_DIR$/Lucky 7s.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rodis rosado   lucky 7s.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basic Python Notes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -533,13 +540,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rodis Rosado Items.py___jb_tmp___" />
-    <entry file="file://$PROJECT_DIR$/Rodis Rosado. Hangman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rodis Rosado World Map OOP.py___jb_tmp___" />
     <entry file="file://$PROJECT_DIR$/notes1.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -551,30 +551,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DIconary notes.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inheritance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <marker date="1552424854943" expanded="true" signature="22:27" ph="..." />
-            <marker date="1552424854943" expanded="true" signature="649:654" ph="..." />
-            <marker date="1552424854943" expanded="true" signature="885:890" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DIconary notes.py___jb_tmp___">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Object notes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rodis Rosado Object map.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -597,23 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rodis Rosado Dictionary world map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orc wiebe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-          <folding>
-            <marker date="1552596775710" expanded="true" signature="19:24" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rodis Rosado map.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -623,33 +584,89 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rodis Rosado Object.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="48" lean-forward="true" selection-end-line="6" selection-end-column="48" />
+        <state relative-caret-position="238">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DIconary notes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lucky 7s.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rodis Rosado. Hangman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Object notes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orc wiebe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rodis Rosado Dictionary world map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rodis rosado   lucky 7s.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rodis rosado fixit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rodis Rosado Items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="98" column="22" lean-forward="true" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
-          <folding>
-            <marker date="1553549778647" expanded="true" signature="1516:1521" ph="..." />
-            <marker date="1553549778647" expanded="true" signature="1919:1924" ph="..." />
-            <marker date="1553549778647" expanded="true" signature="2216:2221" ph="..." />
-            <marker date="1553549778647" expanded="true" signature="2605:2610" ph="..." />
-            <marker date="1553549778647" expanded="true" signature="2891:2896" ph="..." />
-            <marker date="1553549778647" expanded="true" signature="3061:3066" ph="..." />
-            <marker date="1553549778647" expanded="true" signature="3300:3305" ph="..." />
-            <marker date="1553549778647" expanded="true" signature="3485:3490" ph="..." />
-            <marker date="1553549778647" expanded="true" signature="3758:3763" ph="..." />
-          </folding>
+        <state relative-caret-position="816">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3162">
+          <caret line="186" column="48" selection-start-line="186" selection-start-column="48" selection-end-line="186" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rodis Rosado adventure game">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="189" column="82" lean-forward="true" selection-start-line="189" selection-start-column="82" selection-end-line="189" selection-end-column="82" />
+        <state relative-caret-position="307">
+          <caret line="226" column="58" lean-forward="true" selection-start-line="226" selection-start-column="58" selection-end-line="226" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inheritance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <marker date="1552424854943" expanded="true" signature="22:27" ph="..." />
+            <marker date="1552424854943" expanded="true" signature="649:654" ph="..." />
+            <marker date="1552424854943" expanded="true" signature="885:890" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

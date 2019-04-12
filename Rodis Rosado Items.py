@@ -33,6 +33,7 @@ class Mre(Item):
         self.spoon = spoon
         self.matches = matches
 
+
 class Iphone8(Item):
     def __init__(self, battery, storage, finger_print, gyroscope, accelerometer, barometer):
         super(Iphone8, self).__init__("Iphone 8 plus")
@@ -123,9 +124,10 @@ class Microwave(Item):
 
 class Car(object):
     def __init__(self, turning, speed_measurement, fuel_measurement,
-                 revolutions_per_minute, battery_measurement):
+                 revolutions_per_minute, battery_measurement, wheels):
         self.steering_wheel = turning
         self.speedometer = speed_measurement
         self.fuel_gauge = fuel_measurement
         self.rpm = revolutions_per_minute
         self.battery_gauge = battery_measurement
+        self.wheels = wheels
