@@ -4,7 +4,7 @@ class Item(object):
 
 
 class Room(object):
-    # This is a constructor
+    # This is a constructor :)
     def __init__(self, name, north=None, south=None, east=None, west=None, description=None, item=None):
         self.name = name
         self.north = north
