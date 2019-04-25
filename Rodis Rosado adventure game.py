@@ -216,11 +216,11 @@ while playing:
     if command.lower() in ["q", "quit", "exit"]:
         playing = False
     elif command in directions:
-        try:
+
            next_room = player.find_room(command)
            player.move(next_room)
-        except KeyError:
-            print("I can't go that way")
+    except KeyError
+        print("I can't go that way")
     elif "take" in command:
         item_name = command[5:]
         found_item = None
