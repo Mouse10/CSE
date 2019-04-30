@@ -126,9 +126,9 @@ def grade_calc(percentage):
         return "A"
     elif percentage >= 80:
         return "b"
-    elif percentage >=70:
+    elif percentage >= 70:
         return "c"
-    elif percentage >=60:
+    elif percentage >= 60:
         return "d"
     else:
         return "F"
@@ -136,7 +136,7 @@ def grade_calc(percentage):
 
 
 your_grade = grade_calc(82)
-print (your_grade)
+print(your_grade)
 
 # Random numbers
 import random # this should be in line 1
