@@ -139,11 +139,12 @@ your_grade = grade_calc(82)
 print(your_grade)
 
 # Random numbers
-import random # this should be in line 1
+import random  # this should be in line 1
 print (random.randint(0, 100))
 
 # equality statements
 print(5 > 3)
+
 print(5 >= 3)
 print(3 == 3)
 print(3 != 4)
