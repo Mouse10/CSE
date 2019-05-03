@@ -106,7 +106,7 @@ for i in range (5):
 a = 0
 while a < 10:
     print (a)
-    a += 1#this is t  he same as a = a + 1
+    a += 1  # this is t  he same as a = a + 1
 
 
 """
@@ -116,7 +116,7 @@ while loops - use when you DON'T know how many iterations
 """
 
 
-  # Control statements (if statements)
+# Control statements (if statements)
 sunny = False
 if sunny:
     print ("Go outside")
