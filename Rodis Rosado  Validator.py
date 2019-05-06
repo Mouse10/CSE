@@ -11,6 +11,6 @@ def validate(num: str):
     print(reversed_list)
     for index in range(len(reversed_list)):
         reversed_list[index] = int(reversed_list[index])
-        if odd_num
+        if index
     print(reversed_list)
 print(validate(test_num))
