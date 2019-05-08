@@ -92,7 +92,7 @@ for state, info in complex_dictionary.items():
     print("=" * 20)
 
 # Other Notes
-states["MN"] = "Mississippi?" # This isn't Minnesota
+states["MN"] = "Mississippi?"  # This isn't Minnesota
 
 
-states["MN"] = "Minnesota" # Fixed it.
+states["MN"] = "Minnesota"  # Fixed it.

@@ -73,7 +73,7 @@ edison_map = {
        "NAME": "North admin",
         "DESCRIPTION": "This is where you come if you are late",
         "PATHS": {
-            "WEST": "GYM",
+            "WEST": "GYM",`
             "EAST": "LIBRARY"
         }
     },
