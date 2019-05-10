@@ -10,7 +10,7 @@ game = input("type in a game")
 movies = input("type in a movie")
 
 
-print("Kids should get paid for %s because they would want to have %s " % (emote,food))
+print("Kids should get paid for %s because they would want to have %s " % (emote, food))
 print("The first reason is that kids would try or already have %s and would be proud for getting %s " % (noun, item))
 print("They would also want to do more with %s. While they are in school they are getting %s" % (game, movies))
 print("While they are getting good %s. They will use it on %s " % (car, Verb))
