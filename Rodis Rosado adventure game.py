@@ -221,12 +221,12 @@ while playing:
     elif command in directions:
 
         try:
-    next_room = player.find_room(command)
-    player.move(next_room)
-        except KeyError
-        print("I can't go that way")
-    elif "take" in command:
-    item_name = command[5:]
+            next_room = player.find_room(command)
+            player.move(next_room)
+        except KeyError:
+            print("I can't go that way")
+            elif " take " in command:
+                item_name = command[5:]
     found_item = None
     if player.current_location.item.name == item_name:
             found_item = player.current_location.item
@@ -236,5 +236,5 @@ while playing:
 
             player.current_location.item = None
         print("You have taken this %s in this room" % item_name)
-    else:
+            else:
         print("Command not recognized.")
