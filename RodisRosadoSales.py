@@ -10,7 +10,7 @@ with open("Sales Records.csv",  "r") as new_csv:
     vegetables = 0
     baby_food = 0
     meat = 0
-    breverages = 0
+    beverages = 0
     personal_care = 0
     house_hold = 0
     cereal = 0
@@ -36,17 +36,21 @@ with open("Sales Records.csv",  "r") as new_csv:
         if item == "Meat":
             meat = meat + float(old_number)
         if item == "Beverages":
-            breverages = breverages + float(old_number)
+            beverages = beverages + float(old_number)
         if item == "Personal Care":
             personal_care = personal_care + float(old_number)
         if item == "Household":
             house_hold = house_hold + float(old_number)
         if item == "Cereal":
             cereal = cereal + float(old_number)
-        if item(item) > item:
-            print(item)
 
-profit_list = [total_snacks, total_cosmetics, total_fruits, clothes, ]
+profit_list = [total_snacks, total_cosmetics, total_fruits, clothes, office_supplies, vegetables, baby_food, meat, beverages, personal_care, house_hold, cereal]
+list_of_objects = ["Snacks", "Cosmetics", "Fruits", "Clothes", "Office Supplies", "Vegetables", "Baby Food", "Meat", "Beverages", "Personal Care", "House Hold", "Cereal"]
+highest_profit = max(profit_list)
+highest_index = profit_list.index(highest_profit)
+print(list_of_objects[highest_index])
+print(highest_profit)
+
 
 
 print("You are making %s in profit for selling cosmetics" % (total_cosmetics))
@@ -57,7 +61,7 @@ print("You are making %s in profit for selling office supplies" % (office_suppli
 print("You are making %s in profit for selling vegetables" % (vegetables))
 print("You are making %s in profit for selling baby food" % (baby_food))
 print("You are making %s in profit for selling meat" % (meat))
-print("You are making %s in profit for selling breverages" % (breverages))
+print("You are making %s in profit for selling breverages" % (beverages))
 print("You are making %s in profit for selling personal care" % (personal_care))
 print("You are making %s in profit for selling house hold items" % (house_hold))
 print("You are making %s in profit for selling cereal" % (cereal))

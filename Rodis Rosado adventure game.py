@@ -225,7 +225,7 @@ while playing:
             player.move(next_room)
         except KeyError:
             print("I can't go that way")
-            elif " take " in command:
+            elif "take" in command:
                 item_name = command[5:]
     found_item = None
     if player.current_location.item.name == item_name:
