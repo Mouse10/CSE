@@ -15,6 +15,14 @@ with open("Sales Records.csv",  "r") as new_csv:
     house_hold = 0
     cereal = 0
 
+    sub = 0
+    middle = 0
+    aust = 0
+    europe = 0
+    asia = 0
+    cent = 0
+    north = 0
+
     for row in reader:
         old_number = row[13]
         region = row[0]
@@ -43,14 +51,23 @@ with open("Sales Records.csv",  "r") as new_csv:
             house_hold = house_hold + float(old_number)
         if item == "Cereal":
             cereal = cereal + float(old_number)
+            
+
+
+
 
 profit_list = [total_snacks, total_cosmetics, total_fruits, clothes, office_supplies, vegetables, baby_food, meat, beverages, personal_care, house_hold, cereal]
 list_of_objects = ["Snacks", "Cosmetics", "Fruits", "Clothes", "Office Supplies", "Vegetables", "Baby Food", "Meat", "Beverages", "Personal Care", "House Hold", "Cereal"]
+list1 = ["Sub-Saharan Africa", "Middle East and North Africa", "Australia and Oceania", "Europe", "Asia",
+         "Central America and the Caribbean", "North America"]
+list2 = [sub, middle, aust, europe, asia, cent, north]
 highest_profit = max(profit_list)
+highest_region = max(list2)
 highest_index = profit_list.index(highest_profit)
+high_index = list1.index(highest_region)
 print(list_of_objects[highest_index])
 print(highest_profit)
-
+print(list1[high_index])
 
 
 print("You are making %s in profit for selling cosmetics" % (total_cosmetics))
