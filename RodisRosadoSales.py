@@ -51,23 +51,38 @@ with open("Sales Records.csv",  "r") as new_csv:
             house_hold = house_hold + float(old_number)
         if item == "Cereal":
             cereal = cereal + float(old_number)
-            
+        if region == "Sub-Saharan Africa":
+            sub = sub + float(old_number)
+        if region == "Middle East and North Africa":
+            middle = middle + float(old_number)
+        if region == "Australia and Oceania":
+            aust = aust + float(old_number)
+        if region == "Europe":
+            europe = europe + float(old_number)
+        if region == "Asia":
+            asia = asia + float(old_number)
+        if region == "Central America and the Caribbean":
+            cent = cent + float(old_number)
+        if region == "North America":
+            north = north + float(old_number)
 
 
 
 
 profit_list = [total_snacks, total_cosmetics, total_fruits, clothes, office_supplies, vegetables, baby_food, meat, beverages, personal_care, house_hold, cereal]
 list_of_objects = ["Snacks", "Cosmetics", "Fruits", "Clothes", "Office Supplies", "Vegetables", "Baby Food", "Meat", "Beverages", "Personal Care", "House Hold", "Cereal"]
+highest_profit = max(profit_list)
+highest_index = profit_list.index(highest_profit)
+print(list_of_objects[highest_index])
+print(highest_profit)
 list1 = ["Sub-Saharan Africa", "Middle East and North Africa", "Australia and Oceania", "Europe", "Asia",
          "Central America and the Caribbean", "North America"]
 list2 = [sub, middle, aust, europe, asia, cent, north]
-highest_profit = max(profit_list)
 highest_region = max(list2)
-highest_index = profit_list.index(highest_profit)
-high_index = list1.index(highest_region)
-print(list_of_objects[highest_index])
-print(highest_profit)
+high_index = list2.index(highest_region)
 print(list1[high_index])
+
+
 
 
 print("You are making %s in profit for selling cosmetics" % (total_cosmetics))

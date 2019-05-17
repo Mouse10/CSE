@@ -38,10 +38,6 @@ class Player(object):
         return globals()[room_name]
 
 
-class Item(object):
-    def __init__(self, name):
-        self.name = name
-
 
 class Plane(Item):
     def __init__(self, name, wheels, wings, frame, engine, window,
@@ -148,7 +144,7 @@ class Laptop(Item):
 
 
 class Projector(Item):
-    def __int__(self):
+    def __int__(self, bulb, button, frame):
         super(Projector, self).__init__("Projector")
         self.light_bulb = bulb
         self.buttons = button
@@ -187,10 +183,13 @@ R19A = Room("Mr. Wiebe's Room", 'parking_lot', "cafeteria_food", "w_building", "
             "This is where Mr. Wiebe teaches", Laptop("Laptop", "5800 mAh", "4 ports", 1))
 parking_lot = Room("The Parking lot", None, "R19A", None, None, "This is where the teachers park", Plane("Plane", 16, 5, 1, 4, 250, 1, 250, 100, 3, 150000, 10, 200))
 w_building = Room("w_building", "parking_lot", "science_room", None, None, "This building has english and spanish", None)
-cafeteria_food = Room("cafeteria_food", "R19A", None, "science_room", "gym", None, Mre(1, 3, 2, 4, 3, 2, 2, 10))
+cafeteria_food = Room("cafeteria_food", "R19A", None, "science_room",
+                      "gym", "This is where you come to get food and eat", Mre(1, 3, 2, 4, 3, 2, 2, 10))
 north_admin = Room("north_admin", "w_building", None, None, "swimming_pool", None, Golfcart("electric_battery", 4, 5, 1, 1))
-swimming_pool = Room("swimming_pool", "cafeteria_food", None, "south_admin", None, None, Iphone8("2675mAh", "64GB", 1, 1, 1, 1))
-science_room = Room("science_room", "w_building", "south_admin", None, "cafeteria_food", None, Refrigerator(0))
+swimming_pool = Room("swimming_pool", "cafeteria_food", None, "south_admin", None,
+                     None, Iphone8("2675mAh", "64GB", 1, 1, 1, 1))
+science_room = Room("science_room", "w_building", "south_admin", None, "cafeteria_food",
+                    None, Refrigerator(0))
 south_admin = Room("south_admin", "science_room", None, None, "swimming_pool", None,
                    Car(180, "120mph", "55_liters", "7000_rpm", "6yrs", 4))
 gym = Room("gym", "R19sA", "swimming_pool", "science_room", None, None, Baseball_box(3, 11, 20, 10, 10, 30, 4, 25))
@@ -219,22 +218,19 @@ while playing:
     if command.lower() in ["q", "quit", "exit"]:
         playing = False
     elif command in directions:
-
         try:
             next_room = player.find_room(command)
             player.move(next_room)
         except KeyError:
             print("I can't go that way")
-            elif "take" in command:
-                item_name = command[5:]
-    found_item = None
-    if player.current_location.item.name == item_name:
-            found_item = player.current_location.item
-
-    if found_item is not None:
-            player.inventory.append(found_item)
-
-            player.current_location.item = None
-        print("You have taken this %s in this room" % item_name)
-            else:
-        print("Command not recognized.")
+    elif "take" in command:
+            item_name = command[5:]
+            found_item = None
+            if player.current_location.item.name == item_name:
+                found_item = player.current_location.item
+            if found_item is not None:
+                player.inventory.append(found_item)
+                player.current_location.item = None
+            print("You have taken this %s in this room" % item_name)
+    else:
+            print("Command not recognized.")
