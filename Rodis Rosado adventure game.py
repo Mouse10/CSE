@@ -40,7 +40,7 @@ class Player(object):
 
 
 class Plane(Item):
-    def __init__(self, name, wheels, wings, frame, engine, window,
+    def __init__(self, wheels, wings, frame, engine, window,
                  toilet, seat, luggage, scanner, fuel, fire_extinguisher, tv):
         super(Plane, self).__init__("Plane")
         self.wheels = wheels
@@ -66,8 +66,8 @@ class Mre(Item):
         self.gum = gum
         self.beef_taco = beef_taco
         self.beef_stew = beef_stew
-        self.spoon = spoon
         self.matches = matches
+        self.spoon = spoon
 
 
 class Iphone8(Item):
@@ -152,7 +152,7 @@ class Projector(Item):
 
 
 class Refrigerator(Item):
-    def __int__(self, dispenser, compressor, refrigerant):
+    def __int__(self, door, dispenser, compressor, refrigerant):
         super(Refrigerator, self).__init__("Refrigerator")
         self.door = door
         self.ice_dispenser = dispenser
@@ -169,7 +169,8 @@ class Microwave(Item):
 
 
 class Car(Item):
-    def __init__(self, turning, speed_measurement, fuel_measurement, revolutions_per_minute, battery_measurement, wheels):
+    def __init__(self, turning, speed_measurement, fuel_measurement,
+                 revolutions_per_minute, battery_measurement, wheels):
         super(Car, self).__init__("Car")
         self.steering_wheel = turning
         self.speedometer = speed_measurement
@@ -181,11 +182,14 @@ class Car(Item):
 
 R19A = Room("Mr. Wiebe's Room", 'parking_lot', "cafeteria_food", "w_building", "library",
             "This is where Mr. Wiebe teaches", Laptop("Laptop", "5800 mAh", "4 ports", 1))
-parking_lot = Room("The Parking lot", None, "R19A", None, None, "This is where the teachers park", Plane("Plane", 16, 5, 1, 4, 250, 1, 250, 100, 3, 150000, 10, 200))
-w_building = Room("w_building", "parking_lot", "science_room", None, None, "This building has english and spanish", None)
+parking_lot = Room("The Parking lot", None, "R19A", None, None,
+                   "This is where the teachers park", Plane(16, 5, 1, 4, 250, 1, 250, 100, 3, 150000, 10, 200))
+w_building = Room("w_building", "parking_lot", "science_room", None, None,
+                  "This building has english and spanish", None)
 cafeteria_food = Room("cafeteria_food", "R19A", None, "science_room",
                       "gym", "This is where you come to get food and eat", Mre(1, 3, 2, 4, 3, 2, 2, 10))
-north_admin = Room("north_admin", "w_building", None, None, "swimming_pool", None, Golfcart("electric_battery", 4, 5, 1, 1))
+north_admin = Room("north_admin", "w_building", None, None, "swimming_pool",
+                   None, Golfcart("electric_battery", 4, 5, 1, 1))
 swimming_pool = Room("swimming_pool", "cafeteria_food", None, "south_admin", None,
                      None, Iphone8("2675mAh", "64GB", 1, 1, 1, 1))
 science_room = Room("science_room", "w_building", "south_admin", None, "cafeteria_food",

@@ -67,10 +67,10 @@ with open("Sales Records.csv",  "r") as new_csv:
             north = north + float(old_number)
 
 
-
-
-profit_list = [total_snacks, total_cosmetics, total_fruits, clothes, office_supplies, vegetables, baby_food, meat, beverages, personal_care, house_hold, cereal]
-list_of_objects = ["Snacks", "Cosmetics", "Fruits", "Clothes", "Office Supplies", "Vegetables", "Baby Food", "Meat", "Beverages", "Personal Care", "House Hold", "Cereal"]
+profit_list = [total_snacks, total_cosmetics, total_fruits, clothes, office_supplies, vegetables, baby_food,
+               meat, beverages, personal_care, house_hold, cereal]
+list_of_objects = ["Snacks", "Cosmetics", "Fruits", "Clothes", "Office Supplies", "Vegetables", "Baby Food",
+                   "Meat", "Beverages", "Personal Care", "House Hold", "Cereal"]
 highest_profit = max(profit_list)
 highest_index = profit_list.index(highest_profit)
 print(list_of_objects[highest_index])
@@ -85,7 +85,8 @@ print(list1[high_index])
 
 
 
-print("You are making %s in profit for selling cosmetics" % (total_cosmetics))
+print("You are making %s "
+      "in profit for selling cosmetics" % (total_cosmetics))
 print("You are making %s in profit for selling fruits" % (total_fruits))
 print("You are making %s in profit for selling snacks" % (total_snacks))
 print("You are making %s in profit for selling clothes" % (clothes))
